@@ -12,4 +12,4 @@ My SOC (Security Operations Center) challenge created by MyDFIR (https://youtu.b
 - Fleet Server: A centralized system for managing endpoint agents and gathering telemetry data.  
 - osTicket: A ticketing tool for organizing and streamlining incident management workflows.  
 - Mythic C2: A command and control framework that enables attack simulations through custom payloads.  
-- Kali Linux: A Linux platform for penetration testing exercises. 
+- Kali Linux: A Linux platform for penetration testing. 
