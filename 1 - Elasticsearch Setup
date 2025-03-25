@@ -7,7 +7,7 @@ This guide documents the installation and configuration of ElasticSearch on Ubun
 
 Elasticsearch Installation
 
-1.	Go to: https://www.elastic.co/downloads/elasticsearch and copy the link to the ‘.deb’ package
+1. Go to: https://www.elastic.co/downloads/elasticsearch and copy the link to the ‘.deb’ package
  
 2.	In the Ubuntu server terminal, type the following command to download the package: wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.17.2-amd64.deb
  
