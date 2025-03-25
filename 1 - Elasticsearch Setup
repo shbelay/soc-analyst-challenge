@@ -1,9 +1,9 @@
 1 - Elasticsearch Setup on Ubuntu Server
 
 This guide documents the installation and configuration of ElasticSearch on Ubuntu server hosted on Vultr. The server is optimized with 400GB storage, 4vCPUs, and 16GB memory. It is configured on a VPC network with the following public and private IP addresses:
-•	Private IP: 10.3.96.3
-•	Public IP: 216.128.134.227
-•	Hostname: SOC-ELK-Server
+  • Private IP: 10.3.96.3
+  • Public IP: 216.128.134.227
+  • Hostname: SOC-ELK-Server
 
 Elasticsearch Installation
 
