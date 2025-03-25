@@ -1,1 +1,29 @@
+1 - Elasticsearch Setup on Ubuntu Server
+
+This guide documents the installation and configuration of ElasticSearch on Ubuntu server hosted on Vultr. The server is optimized with 400GB storage, 4vCPUs, and 16GB memory. It is configured on a VPC network with the following public and private IP addresses:
+•	Private IP: 10.3.96.3
+•	Public IP: 216.128.134.227
+•	Hostname: SOC-ELK-Server
+
+Elasticsearch Installation
+
+1.	Go to: https://www.elastic.co/downloads/elasticsearch and copy the link to the ‘.deb’ package
+ 
+2.	In the Ubuntu server terminal, type the following command to download the package: wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.17.2-amd64.deb
+ 
+3.	Install the package with the following command: sudo dpkg -i elasticsearch-8.17.2-amd64.deb
+ 
+4.	Copy the generated “Security Autoconfiguration Information” to save to a file. The information contains the generated password to login to Elasticsearch and information to reset the password.
+ 
+5.	Change directory to Elasticsearch
+ 
+6.	Open the YAML file for Elasticsearch that contains all the configuration settings with the following command: nano elasticsearch.yml
+ 
+7.	Change host IP, remove comment (#), and paste in IP of device/server. Also, remove the comment for http.port. So, when our SOC analyst connects to the Elasticsearch instance, it will be with the public IP and port specified.
+ 
+8.	Reload, enable, and start the Elasticsearch daemon with the following commands:
+    a.	systemctl daemon-reload
+    b.	systemctl enable elasticsearch.service
+    c.	systemctl start elasticsearch.service
+ 
 
