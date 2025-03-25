@@ -27,3 +27,4 @@ Elasticsearch Installation
     c.	systemctl start elasticsearch.service
  
 
+PDF document with screenshots can be found here: https://www.shbelay.com/projects/30daysocchallenge/1-ElasticsearchSetup.pdf
