@@ -6,7 +6,12 @@ This guide walks you through the steps for setting up Sysmon on a Windows system
 
 ## About Sysmon
 
-[Sysmon](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon) is a free system utility from Microsoft that's part of the Sysinternals suite. It monitors Windows events and provides logging to detect suspicious activity on a system. Sysmon can monitor various events such as process creations, network connection initiations, and more. A configuration file is optional but highly recommended to fine-tune which events should be captured. Pre-made configuration files can be found at [Olaf Hartong's sysmon-modular repository](https://github.com/olafhartong/sysmon-modular).
+[Sysmon](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon) is a free system utility from Microsoft that's part of the Sysinternals suite. It monitors Windows events and provides logging to detect suspicious activity on a system. Sysmon can monitor various events such as process creations, network connection initiations, and more. A configuration file is optional but highly recommended to fine-tune which events should be captured. 
+
+Pre-made configuration files can be found at [Olaf Hartong's sysmon-modular repository](https://github.com/olafhartong/sysmon-modular). The one that is being used in this guide sysmonconfig.xml.
+
+![image](https://github.com/user-attachments/assets/390bdedd-3b42-40b6-a757-732b065e264e)
+
 
 --- 
 
