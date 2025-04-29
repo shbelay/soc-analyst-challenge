@@ -1,4 +1,4 @@
-# Create RDP Alerts and Dashboards in Kibana
+# Create RDP Alerts in Kibana
 
 ## Objective
 Observe authentication logs from a Windows Server and create alerts and dashboards for RDP activity.
