@@ -1,4 +1,4 @@
-# Create Alerts and Dashboards in Kibana
+# Create SSH Alerts and Dashboards in Kibana
 
 ## Objective
 Create an SSH brute force alert and dashboard in Kibana.
